@@ -153,7 +153,7 @@
             layers = <0>;
         };
 
-        BT_CLR {
+        BTClear {
             bindings = <&bt BT_CLR>;
             key-positions = <37 40 17>;
         };
