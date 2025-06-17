@@ -155,7 +155,7 @@
 
         BTClear {
             bindings = <&bt BT_CLR>;
-            key-positions = <37 40 17>;
+            key-positions = <17 37 36 38 38>;
         };
     };
 
