@@ -261,9 +261,9 @@
 
         Gaming1 {
             bindings = <
-&kp ESCAPE  &kp T           &kp Q  &kp W           &kp E  &kp R        &trans  &trans  &trans  &trans  &trans  &trans
-&kp TAB     &kp LEFT_SHIFT  &kp A  &kp S           &kp D  &kp F        &trans  &trans  &trans  &trans  &trans  &trans
-&kp I       &kp LCTRL       &kp Z  &kp X           &kp C  &kp V        &trans  &trans  &trans  &trans  &trans  &trans
+&kp ESCAPE  &kp T           &kp Q  &kp W           &kp E  &kp R        &trans  &trans  &trans  &trans  &trans     &trans
+&kp TAB     &kp LEFT_SHIFT  &kp A  &kp S           &kp D  &kp F        &trans  &trans  &trans  &trans  &trans     &trans
+&kp I       &kp LCTRL       &kp Z  &kp X           &kp C  &kp V        &kp N   &kp M   &trans  &trans  &kp SLASH  &trans
                                    &msc SCRL_DOWN  &mo 6  &kp SPACE    &tog 5  &trans  &trans
             >;
         };
