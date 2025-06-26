@@ -196,6 +196,13 @@
             tapping-term-ms = <150>;
             flavor = "tap-preferred";
         };
+
+        td_fn_toggle: td_fn_toggle {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TD_FN_TOGGLE";
+            #binding-cells = <0>;
+            bindings = <&none>, <&tog 3>;
+        };
     };
 
     keymap {
